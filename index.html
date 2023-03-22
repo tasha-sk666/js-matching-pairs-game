@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Matching Pairs</title>
+</head>
+
+<body>
+  <section class="container">
+    <div class="content">
+      <h1 class="title">Matching Pairs</h1>
+      <p class="descr">Matching Pairs is a <b>memory game</b> where you need to match pairs of cards. Playing is very
+        simple - you turn over one card and then try to find a matching card.</p>
+      <div class="moves">Moves: <span class="moves__value">0</span></div>
+      <div class="timer">
+        <h2 class="timer__title">Timer: </h2>
+        <ul class="timer__list list-reset grid-col">
+          <li class="timer__item">
+            <span class="timer__subtitle">minutes</span>
+            <span id="minutes">01</span>
+          </li>
+          <li class="timer__item">
+            <span class="timer__subtitle">seconds</span>
+            <span id="seconds">00</span>
+          </li>
+        </ul>
+        <div class="timer__wrapper">
+          <button class="visually-hidden btn-reset btn btn-start">Start</button>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <ul class="cards__list list-reset">
+        <li class="card">
+          <div class="card__face card__face--front"></div>
+          <div class="card__face card__face--back"></div>
+        </li>
+        <li class="card">
+          <div class="card__face card__face--front"></div>
+          <div class="card__face card__face--back"></div>
+        </li>
+        <li class="card">
+          <div class="card__face card__face--front"></div>
+          <div class="card__face card__face--back"></div>
+        </li>
+        <li class="card">
+          <div class="card__face card__face--front"></div>
+          <div class="card__face card__face--back"></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
